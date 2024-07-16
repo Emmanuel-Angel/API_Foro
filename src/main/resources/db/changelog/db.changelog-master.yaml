@@ -1,0 +1,78 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-table-usuarios
+      author: Angel
+      changes:
+        - createTable:
+            tableName: usuarios
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: nombre
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: email
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: password
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+
+  - changeSet:
+      id: create-table-temas
+      author: Angel
+      changes:
+        - createTable:
+            tableName: temas
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: titulo
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: mensaje
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: autor
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: curso
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: boolean
+                  constraints:
+                    nullable: false
+              - column:
+                  name: fecha_creacion
+                  type: datetime
+                  constraints:
+                    nullable: false
