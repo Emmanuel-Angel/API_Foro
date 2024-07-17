@@ -25,7 +25,8 @@ verificacion por tokens con limite de tiempo.
 * ![image](https://github.com/user-attachments/assets/465e22b9-e4ca-4e72-85fb-3cf7928a4985)
 
 * **Inicio de sesión:** Haz clic en el botón "Iniciar sesión" e introduce tu nombre de usuario y contraseña.
-* ![image](https://github.com/user-attachments/assets/fa97cbed-582e-4daa-afee-7de78393a548)
+* ![image](https://github.com/user-attachments/assets/c05bc39f-181f-4082-abea-cbc8811626a7)
+
 
 * **Crear un tema:** Haz clic en el botón "Nuevo tema" y escribe el título y el contenido del tema.
 * ![image](https://github.com/user-attachments/assets/ef7874d5-7159-4e0c-9acf-7452c83bfe90)
